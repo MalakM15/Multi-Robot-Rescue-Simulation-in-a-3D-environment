@@ -50,17 +50,18 @@ Real-time **OpenGL/GLUT** 3D visualization showing:
 
 ## 📁 Project Structure
 
-├── src/
-│ ├── main.c # Entry point, robot placement, GA orchestration
-│ ├── ga.c # Genetic algorithm (selection, crossover, mutation)
-│ ├── ga_parallel.c # Parallel fitness computation (IPC)
-│ ├── astar.c # A* pathfinding algorithm
-│ ├── grid.c # 3D grid management, obstacles, sensors
-│ ├── config.c # Configuration file parser
-│ └── visualize.c # OpenGL visualization
-├── include/
-│ ├── ga.h, astar.h, grid.h, config.h, visualize.h, ipc.h
-└── configfile.txt # Simulation parameters
+├── include/           # Header files (.h)
+├── src/               # Source files (.c)
+│   ├── main.c         # Entry point
+│   ├── ga.c           # Genetic Algorithm
+│   ├── ga_parallel.c  # Parallel processing (IPC)
+│   ├── astar.c        # A* Pathfinding
+│   ├── grid.c         # 3D Grid management
+│   ├── config.c       # Config parser
+│   └── visualize.c    # OpenGL visualization
+├── build/             # Object files
+├── configfile.txt     # Parameters
+└── Makefile           # Build script
 
 ## ⚙️ Configuration
 
