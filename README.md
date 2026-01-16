@@ -47,9 +47,9 @@ Real-time **OpenGL/GLUT** 3D visualization showing:
 - Survivor locations
 - Robot paths and movements
 - Risk heatmap
-~~~
-## 📁 Project Structure
 
+## 📁 Project Structure
+~~~
 ├── include/           # Header files (.h)
 ├── src/               # Source files (.c)
 │   ├── main.c         # Entry point
@@ -62,11 +62,11 @@ Real-time **OpenGL/GLUT** 3D visualization showing:
 ├── build/             # Object files
 ├── configfile.txt     # Parameters
 └── Makefile           # Build script
-
+~~~
 ## ⚙️ Configuration
 
 Edit `configfile.txt` to customize:
-
+~~~
 GRID_X = 20              # Building dimensions
 GRID_Y = 20
 GRID_Z = 20
@@ -76,7 +76,7 @@ POPULATION_SIZE = 100    # GA population
 GENERATIONS = 200        # Evolution iterations
 MUTATION_RATE = 0.3      # 30% mutation chance
 POOL_SIZE = 4            # Parallel worker processes
-
+~~~
 ## Dependencies
 - GCC compiler
 - OpenGL & GLUT libraries
