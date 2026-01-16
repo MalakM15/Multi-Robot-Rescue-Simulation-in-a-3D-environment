@@ -1,0 +1,26 @@
+# Grid dimensions
+GRID_X = 2
+GRID_Y = 20
+GRID_Z = 20
+
+# Obstacle density (0.0 to 1.0)
+OBSTACLE_DENSITY = 0.3
+
+# Sensor thresholds
+HEAT_THRESHOLD = 0.6
+CO2_THRESHOLD = 0.7
+
+# Robot settings
+ROBOT_COUNT = 8
+
+# Genetic Algorithm settings
+POPULATION_SIZE = 100
+GENERATIONS = 200
+MUTATION_RATE = 0.3
+ELITISM_PERCENT = 10
+
+# Parallel worker pool
+POOL_SIZE = 400
+
+# Maximum survivors each robot can rescue
+MAX_SURVIVORS_PER_ROBOT = 10
